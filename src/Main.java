@@ -50,9 +50,9 @@ class Main
         qClass.setTopic(qClass.topicList[0]);
         op = qClass.getOptions();
         //headPanel settings
-        headPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
+        headPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 10, 30));
         //headPanel.setLayout();
-        headPanel.setBackground(Color.gray);
+        headPanel.setBackground(Color.WHITE);
         headPanel.add(headLabel);
         
         //start quiz button
@@ -70,9 +70,9 @@ class Main
         });
 
         //topic Panel
-        topicPanel.setBorder(BorderFactory.createEmptyBorder(30, 30, 30, 30));
+        topicPanel.setBorder(BorderFactory.createEmptyBorder(10, 30, 30, 30));
         topicPanel.setLayout(new BoxLayout(topicPanel, BoxLayout.Y_AXIS));
-        topicPanel.setBackground(Color.green);
+        topicPanel.setBackground(Color.WHITE);
         topicPanel.add(topicLabel);
         topicPanel.add(math);
         topicPanel.add(physics);
