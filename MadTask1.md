@@ -22,6 +22,7 @@ There is a message telling you if your answer is right if you choose the right a
 
 ![Selecting wrong answer.png](images/Selecting%20wrong%20answer.png)
 
+
 After all the questions have been answered, the question screen disappears and the result is displayed along with the option to retry the quizz or return to the main screen.
 
 ![Result screen.png](images/Result%20screen.png)
